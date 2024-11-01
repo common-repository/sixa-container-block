@@ -1,0 +1,92 @@
+{
+	"apiVersion": 2,
+	"name": "sixa/container",
+	"title": "Container",
+	"category": "design",
+	"description": "Wrap several blocks in a parent wrapper and do more styling",
+	"keywords": [
+		"block",
+		"container",
+		"group",
+		"section",
+		"wrapper"
+	],
+	"supports": {
+		"align": [ "wide", "full" ],
+		"anchor": true,
+		"html": false
+	},
+	"attributes": {
+	    "backgroundSize": {
+		  	"type": "object",
+		  	"default": {
+			  "selection": "auto",
+			  "width": "0%",
+			  "height": "0%"
+			}
+		},
+		"backgroundType": {
+			"type": "string",
+			"default": "image"
+		},
+		"customGradient": {
+			"type": "string"
+		},
+		"customOverlayColor": {
+			"type": "string"
+		},
+		"contentPosition": {
+			"type": "string"
+		},
+		"customTextColor": {
+			"type": "string"
+		},
+		"dimRatio": {
+			"type": "number",
+			"default": 50
+		},
+		"focalPoint": {
+			"type": "object"
+		},
+		"gradient": {
+			"type": "string"
+		},
+		"hasParallax": {
+			"type": "boolean",
+			"default": false
+		},
+		"id": {
+			"type": "number"
+		},
+		"isRepeated": {
+			"type": "boolean",
+			"default": false
+		},
+		"isFullHeight": {
+			"type": "boolean",
+			"default": false
+		},
+		"minHeight": {
+			"type": "string"
+		},
+		"overlayColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"title": {
+			"type": "string"
+		},
+		"url": {
+			"type": "string"
+		},
+		"width": {
+			"type": "string"
+		}
+	},
+	"textdomain": "sixa-block-container",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
